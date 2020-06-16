@@ -19,18 +19,8 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>operazioni</servlet-name>
-		<url-pattern>/operazioni</url-pattern>
+		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-	<servlet>
-		<servlet-name>risultato</servlet-name>
-		<servlet-class>
-			org.springframework.web.servlet.DispatcherServlet
-		</servlet-class>
-		<load-on-startup>1</load-on-startup>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>risultato</servlet-name>
-		<url-pattern>/risultato</url-pattern>
-	</servlet-mapping>
+	
 
 </web-app>
